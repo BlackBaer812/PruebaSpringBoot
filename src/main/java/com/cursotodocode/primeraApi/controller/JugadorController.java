@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 public class JugadorController {
+
     @PostMapping("/jugadores")
     public String calculoPromedios(@RequestBody List<Jugador> listaJugadores){
         double suma_estatura = 0.0;
